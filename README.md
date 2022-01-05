@@ -48,6 +48,3 @@ const url = new Url();
 url.defaultChangeFreq = 'daily';
 url.defaultPriority = 1;
 ~~~
-
-# Peer dependencies
-- xml@^1.0.1
