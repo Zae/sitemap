@@ -8,6 +8,9 @@ module.exports = defineConfig({
             name: 'sitemap',
             formats: ['es'],
             fileName: () => `main.mjs`
+        },
+        rollupOptions: {
+            external: ['xml'],
         }
     }
 })
